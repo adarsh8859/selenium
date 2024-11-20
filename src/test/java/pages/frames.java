@@ -35,7 +35,7 @@ public class frames {
 	    File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 	    String path = "C:\\Users\\Adarsh Gowda\\OneDrive\\Desktop\\TestNG\\src\\test\\java\\pages\\homePage.png";
 	    File desti = new File(path);
-	    FileUtils.copyFile(new File(path), file);
+	    FileUtils.copyFile(new File(path), file); 
 	    
     
 	}

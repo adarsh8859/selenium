@@ -39,8 +39,7 @@ public class datePicker {
 	    driver.quit();
 	    driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	    wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy('//dd');
-	    
+	    wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("gfgkig")));
 	    Thread.sleep(3000);
 	}
 }

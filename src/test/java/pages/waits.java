@@ -25,8 +25,8 @@ public class waits {
 	    int time = 3;
 	    WebElement ele = driver.findElement(By.xpath("//*[text()=\"CLICK ME!\"]"));
 	   // driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-	    //WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-	    //wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()=\"CLICK ME!\"]")));
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+	    wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()=\"CLICK ME!\"]")));
 	    /* alertIsPresent(),
 	    elementSelectionStateToBe()
 	    elementToBeClickable()

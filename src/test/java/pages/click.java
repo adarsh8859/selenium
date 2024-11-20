@@ -31,7 +31,7 @@ public void seleniumclick ()
 	    JavascriptExecutor js = (JavascriptExecutor)driver;
 	    //js.executeScript("alert(‘hello world’);");
 	   js.executeScript("arguments[0].click();", seleClick);// Javascript click
-	   js.executeScript("location.reload()");
+	   js.executeScript("location.reload()");//refresh
 	   Actions ac = new Actions(driver); // Action click
 	   ac.moveToElement(seleClick).click();
 	   driver.quit();

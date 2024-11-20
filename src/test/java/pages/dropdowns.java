@@ -54,6 +54,7 @@ public class dropdowns {
 	
 		for(int i=0; i<checkboxes.size(); i++)
 		{
+			
 			if(checkboxes.get(i).isSelected()== false)
 			{
                    System.out.println("Checkbox is displayed at index : " + i + " Clicking on it now");

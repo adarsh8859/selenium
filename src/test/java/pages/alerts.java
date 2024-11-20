@@ -20,7 +20,6 @@ public class alerts {
 	    ac.dismiss();
 	    driver.findElement(By.id("button2")).click();
 	    ac.accept();
-	    
 	}
 
 }

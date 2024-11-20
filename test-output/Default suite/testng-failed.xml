@@ -3,11 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pages.alerts">
+      <class name="pages.testng_annotations">
         <methods>
-          <include name="alert"/>
+          <include name="launch"/>
+          <include name="clear"/>
+          <include name="quite"/>
+          <include name="windowSetup"/>
+          <include name="login"/>
+          <include name="setBrowser"/>
+          <include name="sc"/>
         </methods>
-      </class> <!-- pages.alerts -->
+      </class> <!-- pages.testng_annotations -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
